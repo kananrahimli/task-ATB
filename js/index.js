@@ -41,7 +41,7 @@ $(document).ready(function () {
   });
 
   //Change section with link
-  $(".header-wrapper__navbar--list__item--link").on("click", function (event) {
+  $(".header-wrapper__navbar--list__item--link,.footer-list__item--link").on("click", function (event) {
     $('.header-wrapper__navbar--list').removeClass("show");
     var $anchor = $(this);
    
