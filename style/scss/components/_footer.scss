@@ -1,0 +1,80 @@
+//FOOETR
+
+.footer {
+    background-color: $light-orange;
+    padding: 48px 0px;
+
+    &-title {
+        font-size: 40px;
+        text-align: center;
+
+        span {
+            font-weight: 900;
+            color: $orange;
+        }
+    }
+
+    &-list {
+        margin: 32px 0px;
+
+        &__item {
+            &:not(:first-child) {
+                margin-left: 24px;
+            }
+
+            @media screen and (max-width:992px) {
+
+                margin-top: 12px;
+
+                &:not(:first-child) {
+                    margin-left: 18px;
+                }
+
+            }
+
+            &--link {
+                color: $dark !important;
+                font-size: 24px;
+
+                @media screen and (max-width:992px) {
+                    font-size: 18px;
+
+
+                }
+            }
+        }
+    }
+
+    &-social {
+        &__item {
+           color: $orange;
+           cursor: pointer;
+            font-size: 36px;
+            &:not(:first-child) {
+                margin-left: 56px;
+            }
+
+            @media screen and (max-width:992px) {
+
+                &:not(:first-child) {
+                    margin-left: 24px;
+                }
+
+            }
+        }
+    }
+}
+
+.footer-author{
+    padding: 18px 0px;
+    &__text{
+        font-size: 24px;
+
+        &--name{
+            color: $orange;
+            font-weight: 600;
+        }
+    }
+
+
+}
