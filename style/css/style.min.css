@@ -125,6 +125,11 @@ li {
   overflow: hidden;
   background-size: cover;
 }
+@media screen and (max-width: 992px) {
+  .header-wrapper {
+    background-position: 70%;
+  }
+}
 .header-wrapper__navbar.sticky {
   position: fixed;
   top: 0;

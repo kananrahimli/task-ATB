@@ -12,6 +12,9 @@
         background-position: center;
         overflow: hidden;
         background-size: cover;
+        @media screen and (max-width:992px) {
+            background-position: 70%;
+        }
 
         &__navbar { 
             &.sticky{
